@@ -51,6 +51,6 @@ t = Template("Toi ten la {{p.name}}. Hien nay toi {{p.age}} tuoi")
 msg = t.render(p=per)
 print(msg)
 
-t = Template("Toi ten la {{p['name'].upper()}}. Hien nay toi {{p['age']}} tuoi")
+t = Template("Toi ten la {{p['name'].upper()}}. Hien nay toi {{p['age']*2}} tuoi")
 msg = t.render(p=per)
 print(msg)
